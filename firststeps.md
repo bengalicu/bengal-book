@@ -23,7 +23,7 @@ The example below calls the ```reverse``` method on ```myObject``` instance and 
 The example below creates an instance of ```MyObject```. 
 
   ```
-  myObject = new("MyObject");
+  myObject = new MyObject();
   ```
 
 ### Releasing an existing instance
@@ -31,7 +31,7 @@ The example below creates an instance of ```MyObject```.
 The example below shows how to release an object.
 
   ```
-  delete(anObject);
+  delete(myObject);
   ```
 
 ### Defining an object
