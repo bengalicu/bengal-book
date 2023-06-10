@@ -34,19 +34,19 @@ The example below shows how to release an object.
   delete(myObject);
   ```
 
-### Defining an object
+### Defining a class
 
-If you want to reuse your code you might consider wrapping it into an object
+If you want to reuse your code you might consider wrapping it into a class
 which can be constructed using the new keyword. The example below shows how
 you would define the object named ```MyObject```.
 
   ```
-  object MyObject {
+  class MyObject {
   }
   ```
 ### Defining a method
 
-An object in and of itself cannot do anything so you will need to define some 
+A class in and of itself does not do anything so you will need to define some 
 methods that can be called. The example below defines a method for
 pushing an item.
 

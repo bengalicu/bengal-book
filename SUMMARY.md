@@ -8,7 +8,7 @@
     * [Assigning a result](firststeps.md#assigning-a-result)
     * [Constructing a new instance](firststeps.md#constructing-a-new-instance)
     * [Release an existing instance](firststeps.md#release-an-existing-instance)
-    * [Defining an object](firststeps.md#defining-an-object)
+    * [Defining a class](firststeps.md#defining-a-class)
     * [Defining a method](firststeps.md#defining-a-method)
 * [Dealing with primitives](primitives.md)
     * [Using booleans](primitives.md#using-booleans)

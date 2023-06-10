@@ -4,4 +4,4 @@ description: Bengal
 
 ## Introduction
 
-Bengal is a language that uses objects and methods to define functionality.
+Bengal is a language that uses classes and methods to define functionality.
