@@ -12,36 +12,36 @@ The example below calls the ```tick``` method on the ``timer`` instance.
 
 ### Assigning a result
 
-The example below calls the ```reverse``` method on ```myObject``` instance and it will assign the result to ```myResult```.
+The example below calls the ```reverse``` method on the ```myInstance``` instance and it will assign the result to ```myResult```.
 
   ```
-  myResult = myObject.reverse();
+  myResult = myInstance.reverse();
   ```
 
 ### Constructing a new instance
 
-The example below creates an instance of ```MyObject```. 
+The example below creates an instance of ```MyClass```. 
 
   ```
-  myObject = new MyObject();
+  myInstance = new MyClass();
   ```
 
 ### Releasing an existing instance
 
-The example below shows how to release an object.
+The example below shows how to release an instance.
 
   ```
-  delete(myObject);
+  delete(myInstance);
   ```
 
 ### Defining a class
 
 If you want to reuse your code you might consider wrapping it into a class
-which can be constructed using the new keyword. The example below shows how
-you would define the object named ```MyObject```.
+which can be constructed using the `new` keyword. The example below shows how
+you would define the class named ```MyClass```.
 
   ```
-  class MyObject {
+  class MyClass {
   }
   ```
 ### Defining a method
