@@ -9,7 +9,7 @@
     * [Constructing a new instance](firststeps.md#constructing-a-new-instance)
     * [Release an existing instance](firststeps.md#release-an-existing-instance)
     * [Defining a class](firststeps.md#defining-a-class)
-    * [Defining a method](firststeps.md#defining-a-method)
+    * [Defining a class method](firststeps.md#defining-a-class-method)
 * [Dealing with primitives](primitives.md)
     * [Using booleans](primitives.md#using-booleans)
     * [Using characters](primitives.md#using-characters)

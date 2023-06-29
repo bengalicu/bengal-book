@@ -44,10 +44,10 @@ you would define the class named ```MyClass```.
   class MyClass {
   }
   ```
-### Defining a method
+### Defining a class method
 
 A class in and of itself does not do anything so you will need to define some 
-methods that can be called. The example below defines a method for
+class methods that can be called. The example below defines a class method for
 pushing an item.
 
   ```
