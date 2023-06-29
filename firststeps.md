@@ -54,3 +54,14 @@ pushing an item.
   method push(item) {
   }
   ```
+
+### Defining a class variable
+
+A class would need to be able to store things so you can create variables that
+are only visible to the class. The example below does that.
+
+  ```
+  class MyClass {
+    var myVariable;
+  }
+  ```
