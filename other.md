@@ -22,15 +22,15 @@ The code above calls the `callStaticMethod` method which asks to call the`java.l
 |--------------|------------------|
 | String       | java.lang.String |
 
-### Linuxs integration
+### Posix integration
 
-The Linux integration is delvered through the `Linux` class. To interact with
-Linux you would see something like the code snippet below:
+The Posix integration is delvered through the `Posix` class. To interact with
+a Posix compatible OS you would see something like the code snippet below:
 
 ```
   String myString = "My String";
-  Linux linux = new Linux();
-  linux.call("mylib.so", "myfunction", myString);
+  Posix posix = new Posix();
+  posix.call("mylib.so", "myfunction", myString);
 ```
 
 The code above calls the `call` method which asks to use the `mylib.so` library to call the `myfunction` function and it passes `myString`. Note that the implementation of the Bengal runtime converts it from the Bengal class to the corresponding Linux equivalent. The following table illustrates what conversion is done.
