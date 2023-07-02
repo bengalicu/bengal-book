@@ -10,6 +10,7 @@
     * [Release an existing instance](firststeps.md#release-an-existing-instance)
     * [Defining a class](firststeps.md#defining-a-class)
     * [Defining a class method](firststeps.md#defining-a-class-method)
+    * [Defining a class variable](firststeps.md#defining-a-class-variable)
 * [Dealing with primitives](primitives.md)
     * [Using booleans](primitives.md#using-booleans)
     * [Using characters](primitives.md#using-characters)
