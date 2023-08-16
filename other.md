@@ -33,9 +33,13 @@ a Posix compatible OS you would see something like the code snippet below:
   posix.call("mylib.so", "myfunction", myString);
 ```
 
-The code above calls the `call` method which asks to use the `mylib.so` library to call the `myfunction` function and it passes `myString`. Note that the implementation of the Bengal runtime converts it from the Bengal class to the corresponding Linux equivalent. The following table illustrates what conversion is done.
+The code above calls the `call` method which asks to use the `mylib.so` library
+to call the `myfunction` function and it passes `myString`. Note that the
+implementation of the Bengal runtime converts it from the Bengal class to the
+corresponding Posix equivalent. The following table illustrates what conversion
+is done.
 
-| Bengal Class | Linux equivalent |
+| Bengal Class | Posix equivalent |
 |--------------|------------------|
 | String       | char*            |
 
